@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main is main
- * desription of my code
+ * main - main is main always
+ * this the description of my code
  * Return: Always 0 (success)
  */
 int main(void)
