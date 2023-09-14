@@ -2,8 +2,8 @@
 
 /**
  * _isdigit - code
- * @c: int 
- * Return: 1  field 0 success
+ * @c: int
+ * Return: 1 field 0 success
  */
 int _isdigit(int c)
 {
