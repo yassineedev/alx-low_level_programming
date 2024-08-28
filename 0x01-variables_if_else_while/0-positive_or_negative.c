@@ -1,12 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
+#include <time.h>
 /**
- * main - main is main always
- * this the description of my code
- * Return: Always 0 (Success)
- */
+* main - main is main
+* another des here
+* Return: always 0
+*/
 int main(void)
 {
 	int n;
