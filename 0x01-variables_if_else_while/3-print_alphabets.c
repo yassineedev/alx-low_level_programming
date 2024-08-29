@@ -5,7 +5,7 @@
 * des for my code
 * Return: always 0 success
 */
-int main (void)
+int main(void)
 {
 	int f, s;
 		for (f = 97; f <= 122 ; f++)
