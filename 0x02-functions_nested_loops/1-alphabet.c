@@ -1,23 +1,16 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * print_alphabets - print abc..xyz
+ * print_alphabet - print abc..xyz
+ * Return: always 0
  */
 void print_alphabet(void)
 {
-	int a;
-	for (a = 97; a <= 122; a++)
+	char c = 97;
+
+	while (c <= 122)
 	{
-		putchar(a);
+		_putchar(c);
+		c++;
 	}
-}
-/**
- * main - main is main
- * Return: always 0
- */
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-	return (0);
+		_putchar('\n');
 }
