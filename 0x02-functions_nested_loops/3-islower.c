@@ -2,7 +2,7 @@
 /**
  * _islower - prints lower cases
  *
- * 0c: means check the inputs
+ * @c: means check the inputs
  *
  *  Return: Return 1 if 'c' is lower case and return 0 if it it's not
  */
