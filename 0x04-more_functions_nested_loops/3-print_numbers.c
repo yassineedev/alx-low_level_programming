@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - print numbers prototype function
- * @c: is in int
  * Return: always 0
  */
 void print_numbers(void)
