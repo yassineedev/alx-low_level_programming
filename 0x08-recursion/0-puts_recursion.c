@@ -15,7 +15,6 @@ void	_puts_recursive(char *s)
 		_putchar('\n');
 		return;
 	}
-	else
-		_putchar(*s);
-	return (_puts_recursive(s + 1));
+	_putchar(*s);
+	_puts_recursive(s + 1);
 }
