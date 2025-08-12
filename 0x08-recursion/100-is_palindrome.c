@@ -12,7 +12,7 @@ int	_strlen(char *s)
 	i = 0;
 	while (s[i])
 		i++;
-	return (i - 1);
+	return (i);
 }
 /**
  * _palindrome - palindrome rec helper
@@ -29,9 +29,7 @@ int	_palindrome(char *s, int n, int len)
 		return (0);
 	if (n >= len)
 		return (1);
-	n++;
-	len--;
-	return (_palindrome(s, n, len));
+	return (_palindrome(s, n + 1, len - 1));
 }
 
 /**
@@ -43,7 +41,7 @@ int	_palindrome(char *s, int n, int len)
 
 int	is_palindrome(char *s)
 {
-	int	len = _strlen(s);
+	int	len = _strlen(s) - 1;
 
 	if (*s == '\0')
 		return (1);
